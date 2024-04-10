@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+body{
+    font-family: "Rakkas", serif;
+    background-color: rgb(210, 0, 175);
+}
+.title{
+    color: black;
+    text-align: center;
+}
+.box{
+    text-align: center;
+}
+.gift-box{
+    margin-top: 30px;
+    animation-name: gift;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes gift{
+    10%{
+        rotate: 10deg;
+    }
+    20%{
+        rotate: -10deg;
+    }
+    30%{
+        rotate: 10deg;
+    }
+    40%{
+        rotate: -10deg;
+    }
+    50%{
+        rotate: 10deg;
+    }
+    60%{
+        rotate: -10deg;
+    }
+    70%{
+        rotate: 10deg;
+    }
+    80%{
+        rotate: -10deg;
+    }
+    90%{
+        rotate: 10deg;
+    }
+    100%{
+        rotate: -10deg;
+    }
+}
+.btn-gift{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+}
+.no{
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    margin-right:20px;
+}
+.first{
+    display: inline-flex;
+}
